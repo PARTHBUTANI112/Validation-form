@@ -1,0 +1,49 @@
+
+.validation-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:#70a9d0;
+}
+
+.validation-page-title {
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: #0c0c0c
+}
+
+.validation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  background-color:rgb(155, 49, 123);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.validation-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.validation-input {
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 5px solid red;
+  border-radius: 19px;
+}
+
+.validation-button {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color:rgb(7, 6, 6);
+  color:rgb(67, 8, 125);
+  cursor: pointer;
+}
